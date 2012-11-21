@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+		<script type="text/javascript" src="../lib/jQuery.livedemo.js"></script>
+	</head>
+	<body>
+	<textarea type="text" id="input">
+		&lt;script type=&quot;text/javascript&quot;&gt; alert(&quot;abc&quot;); &lt;/script&gt;
+	</textarea>
+	<div id="output"></div>
+	<script type="text/javascript">
+		$("#input").livedemo({
+			output: $("#output")
+		});
+	</script>
+	</body>
+</html>
